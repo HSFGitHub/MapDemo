@@ -24,7 +24,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    CGRect temRect = CGRectMake(0, 100, 200, 200);
+    CGRect temRect = self.view.bounds;
 //    temRect.size.height -= 100;
     //创建mapView
     _mapView = [AiWei_MAMapView shareAiWei_MAMapView];
